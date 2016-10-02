@@ -1,0 +1,5 @@
+node_modules
+templates/dist
+templates/src/assets/web/bower
+templates/src/assets/web/fonts/iconfont
+.sass-cache

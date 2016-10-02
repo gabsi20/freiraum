@@ -1,0 +1,27 @@
+{
+  "name": "freiraum-abtenau",
+  "version": "1.0.0",
+  "authors": [
+    "Alexander Gabriel"
+  ],
+  "description": "freiraum-abtenau",
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "jquery": "~1.12.2",
+    "picturefill": "~3.0.2"
+  },
+  "dependencies": {
+    "normalize-scss": "~3.0.3",
+    "respond": "~1.4.2",
+    "velocity": "~1.2.3",
+    "fastclick": "~1.0.6"
+  }
+}

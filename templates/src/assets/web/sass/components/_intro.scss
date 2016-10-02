@@ -1,0 +1,10 @@
+// Remove this file
+.intro{
+  margin: 50px 25px;
+  &__line{
+    border: none;
+    margin: 25px 0;
+    height: 1px;
+    background-color: #eee;
+  }
+}
