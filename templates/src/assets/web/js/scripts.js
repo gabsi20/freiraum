@@ -1,2 +1,3 @@
-//= include scripts/menuToggle.js
-//= include scripts/popup.js
+//= include scripts/navigation.js
+//= include scripts/gallery.js
+//= include scripts/socialhub.js

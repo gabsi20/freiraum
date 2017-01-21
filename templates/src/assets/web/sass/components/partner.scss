@@ -1,0 +1,16 @@
+.partner{
+	display: block;
+	margin: 0 auto;
+	a{
+		display: block;
+		width: 100%;
+		text-align: center;
+		&:hover > img{
+			background-color: rgba(200,200,200,0.6);
+		}
+	}
+	img{
+		max-width: 95%;
+
+	}
+}

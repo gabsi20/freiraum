@@ -1,6 +1,15 @@
 // Typography
+@font-face {
+	font-family: futura;
+	src: url(../fonts/futura-condensed.eot),
+	url(../fonts/futura-condensed.ttf) format('truetype');
+}
+
+@import url(https://fonts.googleapis.com/css?family=Josefin+Sans:400,600);
+@import url(https://fonts.googleapis.com/css?family=Questrial);
+
 $font-size-base: 16px;
-$font-family: 'Avenir Next W01', Arial, sans-serif;
+$font-family: 'Josefin Sans', sans-serif, Arial;
 $line-height: 1.5;
 
 // Spacing
@@ -11,4 +20,7 @@ $breakpoint-medium: 768px;
 $breakpoint-large: 1200px;
 
 // Colors
-$color-primary: #123456;
+$color-primary: #82bf5b;
+$color-secondary: #abd391;
+$color-darkgrey: #616161;
+$color-grey: #ababab;

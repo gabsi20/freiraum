@@ -1,2 +1,0 @@
-Remove me
-In this folder just put any other files that you want to have copied into 'dist' folder.
