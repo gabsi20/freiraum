@@ -20,7 +20,10 @@ html {
 	
 }
 .stickyfooter {
-	margin: 0 0 180px; /* bottom = footer height */
+	margin: 0 0 210px; /* bottom = footer height */
+	@media screen and (max-width: 620px){
+		margin: 0 0 180px;
+	}
 }
 
 a{

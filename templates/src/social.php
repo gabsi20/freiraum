@@ -32,7 +32,7 @@ function generateFacebookToken($settings){
 
 
 function getFB($token){
-	$url = 'https://graph.facebook.com/1645290745709615/feed?access_token='.$token.'&format=json&fields=full_picture,type,message,created_time';
+	$url = 'https://graph.facebook.com/1645290745709615/feed?access_token='.$token.'&format=json&fields=full_picture,link,type,message,created_time';
 
 	$curl = curl_init();
 

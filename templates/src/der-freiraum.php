@@ -27,3 +27,14 @@
 <p>
 	Und für die „wirklich wichtigen Gespräche“, für Informelles und Persönliches, gibt´s die Lounge mit gemütlicher Ecke und Bar mit Kaffee, Erfrischung und Snacks. 
 </p>
+
+<div class="gallery">
+	<?php
+	foreach(glob('assets/web/img/galleries/der-freiraum/*.{jpg,JPG}',GLOB_BRACE) as $file){
+		?>
+		<div class="gallery__item js-gallery-item" style="background-image: url('<?= $file ?>')" data-image="<?= $file ?>"></div>
+		<?php
+	}
+
+	?>
+</div>

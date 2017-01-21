@@ -20,9 +20,10 @@
 				color: #fff;
 				position: absolute;
 				content: '>';
-				font-size: 45px;
+				font-size: 38px;
 				left: 65px;
-				display: table;
+				display: block;
+				top: -3px;
 			}
 			&:hover, &:focus, &:active, .active{
 				background-color: $color-secondary;

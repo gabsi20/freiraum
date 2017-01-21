@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	
-	$('.js-navigation-link').click(function(e){
+	/*$('.js-navigation-link').click(function(e){
 		e.preventDefault();
 		if (($(window).width() <= 1200) && !$(this).hasClass('js-footer-link')){	
 			$('.js-navigation').slideToggle();
@@ -29,7 +29,7 @@ $(document).ready(function(){
 			console.log(error.status + ' ' + error.statusText);
 		});
 
-	});
+	});*/
 
 	$('.js-burger-icon').click(function(){
 		$('.js-navigation').slideToggle();

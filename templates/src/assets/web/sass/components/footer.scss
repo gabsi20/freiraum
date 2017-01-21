@@ -5,6 +5,7 @@
 	bottom: 0;
 	height: 180px;
 	width: 100%;
+	margin-top: 30px;
 	.wise{
 		height: 80px;
 		background-color: $color-grey;
@@ -64,6 +65,7 @@
 		}
 	}
 	@media (max-width: 620px) {
+		margin-top: 0px;
 		.wise{
 			.text{
 				font-size: 18px;
