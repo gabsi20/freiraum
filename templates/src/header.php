@@ -24,7 +24,7 @@ include 'router.php';
         <div class="stickyfooter">
             <div class="container">
                 <div class="head">
-                    <a href="index.php?page=home" class="js-navigation-link" data-page="home">
+                    <a href="home" class="js-navigation-link" data-page="home">
                         <img src="assets/web/img/header.png" alt="Logo" class="logo" />
                     </a> 
                     <div class="burger js-burger-icon">
