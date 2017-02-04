@@ -2,6 +2,7 @@
 	width: 60%;
 	display: block;
 	margin: 0 auto;
+	margin-bottom: 20px;
 	&__item{
 		background-size: cover;
 		background-position: 50% 50%;
@@ -33,5 +34,10 @@
 			width: 47%;
 			padding-bottom: 47%;
 		}
+	}
+	&:after{
+		display: block;
+		clear: both;
+		content: '';
 	}
 }

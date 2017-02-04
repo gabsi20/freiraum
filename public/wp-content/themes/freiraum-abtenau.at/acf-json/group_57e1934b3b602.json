@@ -96,6 +96,37 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                {
+                    "key": "5895ba74fdf88",
+                    "name": "gallery",
+                    "label": "Bild Gallerie",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "clone": [
+                                "group_5895ba18e6e9c"
+                            ],
+                            "prefix_label": 0,
+                            "prefix_name": 0,
+                            "display": "seamless",
+                            "layout": "block",
+                            "key": "field_5895ba74fdf89",
+                            "label": "Gallery",
+                            "name": "gallery",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            }
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             ],
             "min": "",
@@ -130,7 +161,6 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": [
-        "permalink",
         "the_content",
         "excerpt",
         "custom_fields",
@@ -148,5 +178,5 @@
     ],
     "active": 1,
     "description": "",
-    "modified": 1486204188
+    "modified": 1486207810
 }
