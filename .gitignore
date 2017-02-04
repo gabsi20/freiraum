@@ -3,3 +3,4 @@ templates/dist
 templates/src/assets/web/bower
 templates/src/assets/web/fonts/iconfont
 .sass-cache
+public/wp-content/uploads/
