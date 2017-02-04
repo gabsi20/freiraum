@@ -1,6 +1,6 @@
   ////////////
   // Settings
-  var cmsAssetsPath = ''; // Path to CMS location of assets (if empty assets will not be copied anywhere). E.g. "htdocs/assets/web/"
+  var cmsAssetsPath = 'public/wp-content/themes/freiraum-abtenau.at/assets/'; // Path to CMS location of assets (if empty assets will not be copied anywhere). E.g. "htdocs/assets/web/"
   var useRubySass = false; // Use of Ruby-sass is slower but supports latest sass features
   var generateWebpImages = false; // Generate .webp images from your .jpgs and .pngs
 
