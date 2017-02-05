@@ -1,0 +1,14 @@
+.columns{
+	.left, .right{
+		width: 49%;
+		float: left;
+		margin: 0.5%;
+		padding: 10px;
+		background-color: lighten($color-primary,20%);
+	}
+	&:after{
+		display: block;
+		content: '';
+		clear: both;
+	}
+}

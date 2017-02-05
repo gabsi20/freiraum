@@ -3,22 +3,6 @@
     "title": "Module \u2013 Gallery",
     "fields": [
         {
-            "placement": "left",
-            "endpoint": 0,
-            "key": "field_5895ba18ec684",
-            "label": "Content",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            }
-        },
-        {
             "library": "uploadedTo",
             "min": "",
             "max": "",
@@ -34,43 +18,6 @@
             "label": "Gallery",
             "name": "gallery",
             "type": "gallery",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            }
-        },
-        {
-            "placement": "left",
-            "endpoint": 0,
-            "key": "field_5895ba18ecc5a",
-            "label": "Settings",
-            "name": "",
-            "type": "tab",
-            "instructions": "",
-            "required": 0,
-            "conditional_logic": 0,
-            "wrapper": {
-                "width": "",
-                "class": "",
-                "id": ""
-            }
-        },
-        {
-            "clone": [
-                "group_57e193dda0a65"
-            ],
-            "prefix_label": 0,
-            "prefix_name": 0,
-            "display": "seamless",
-            "layout": "block",
-            "key": "field_5895ba18ece47",
-            "label": "Component \u2013 Module Settings",
-            "name": "",
-            "type": "clone",
             "instructions": "",
             "required": 0,
             "conditional_logic": 0,
@@ -98,5 +45,5 @@
     "hide_on_screen": "",
     "active": 0,
     "description": "",
-    "modified": 1486207590
+    "modified": 1486293890
 }

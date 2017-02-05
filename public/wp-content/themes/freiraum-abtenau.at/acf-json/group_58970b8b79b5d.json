@@ -1,6 +1,6 @@
 {
-    "key": "group_5895ac7f6cd90",
-    "title": "Module \u2013 Image Fullwidth",
+    "key": "group_58970b8b79b5d",
+    "title": "Module \u2013 Image Big",
     "fields": [
         {
             "return_format": "array",
@@ -13,7 +13,7 @@
             "max_height": "",
             "max_size": "",
             "mime_types": "",
-            "key": "field_5895ac7f73b5b",
+            "key": "field_58970b8b7f050",
             "label": "Image",
             "name": "image",
             "type": "image",
@@ -44,5 +44,5 @@
     "hide_on_screen": "",
     "active": 0,
     "description": "",
-    "modified": 1486293864
+    "modified": 1486293910
 }

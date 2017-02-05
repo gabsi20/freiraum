@@ -1,6 +1,6 @@
 {
-    "key": "group_57e1937dad89a",
-    "title": "Module \u2013 Text",
+    "key": "group_5896fb54217d7",
+    "title": "Module \u2013 Text Zweispaltig",
     "fields": [
         {
             "tabs": "all",
@@ -8,9 +8,28 @@
             "media_upload": 1,
             "default_value": "",
             "delay": 0,
-            "key": "field_5895a56bab21a",
-            "label": "Text",
-            "name": "text",
+            "key": "field_5896fb54286df",
+            "label": "Linke Spalte",
+            "name": "text_left",
+            "type": "wysiwyg",
+            "instructions": "",
+            "required": 0,
+            "conditional_logic": 0,
+            "wrapper": {
+                "width": "",
+                "class": "",
+                "id": ""
+            }
+        },
+        {
+            "tabs": "all",
+            "toolbar": "full",
+            "media_upload": 1,
+            "default_value": "",
+            "delay": 0,
+            "key": "field_5896fb5d8c6b6",
+            "label": "Rechte Spalte",
+            "name": "text_right",
             "type": "wysiwyg",
             "instructions": "",
             "required": 0,
@@ -39,5 +58,5 @@
     "hide_on_screen": "",
     "active": 0,
     "description": "",
-    "modified": 1486293847
+    "modified": 1486293833
 }

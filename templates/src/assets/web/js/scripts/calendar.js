@@ -1,0 +1,9 @@
+$(function(){
+	$('.js-calendar-head').next().hide();
+	$('.js-calendar-head').click(function(){
+		if(!$(this).next().is(":visible")){
+			$('.js-calendar-head').next().slideUp("fast");
+			$(this).next().slideDown('fast');
+		}
+	});
+});

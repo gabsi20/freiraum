@@ -33,7 +33,7 @@
                     <div class="line line3"></div>
                 </div>
                 <div class="button">
-                    <a href="#">Anfragen & Buchen</a>
+                    <a href="/contact">Anfragen & Buchen</a>
                 </div>
             </div>
         </div>

@@ -3,9 +3,9 @@
 if( have_rows('modules') ){
 	while ( have_rows('modules') ){
 		the_row();
-		if(get_sub_field('status') == 'publish'){
-			include get_template_directory(). "/modules/" . get_row_layout() . '.php';
-		}
+
+		include get_template_directory(). "/modules/" . get_row_layout() . '.php';
+		
 	}
 }
 

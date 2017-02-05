@@ -5,53 +5,31 @@
         {
             "layouts": [
                 {
-                    "key": "57e1956041276",
-                    "name": "text_normal",
-                    "label": "Text",
+                    "key": "58970ce64d1dd",
+                    "name": "address",
+                    "label": "Adresse",
                     "display": "block",
-                    "sub_fields": [
-                        {
-                            "clone": [
-                                "group_57e1937dad89a"
-                            ],
-                            "prefix_label": 0,
-                            "prefix_name": 0,
-                            "display": "seamless",
-                            "layout": "block",
-                            "key": "field_57e1956e86bda",
-                            "label": "Text",
-                            "name": "text",
-                            "type": "clone",
-                            "instructions": "",
-                            "required": 0,
-                            "conditional_logic": 0,
-                            "wrapper": {
-                                "width": "",
-                                "class": "",
-                                "id": ""
-                            }
-                        }
-                    ],
+                    "sub_fields": [],
                     "min": "",
                     "max": ""
                 },
                 {
-                    "key": "5895abb786df6",
-                    "name": "headline",
-                    "label": "\u00dcberschrift",
+                    "key": "5895cb3c072d9",
+                    "name": "events",
+                    "label": "Akkordeon",
                     "display": "block",
                     "sub_fields": [
                         {
                             "clone": [
-                                "group_5895ab8fe9ffd"
+                                "group_5895ca72dd729"
                             ],
                             "prefix_label": 0,
                             "prefix_name": 0,
                             "display": "seamless",
                             "layout": "block",
-                            "key": "field_5895abb786df7",
-                            "label": "Headline",
-                            "name": "headline",
+                            "key": "field_5895cb3c072da",
+                            "label": "Veranstaltungen",
+                            "name": "events",
                             "type": "clone",
                             "instructions": "",
                             "required": 0,
@@ -69,7 +47,7 @@
                 {
                     "key": "5895acbe58183",
                     "name": "image_fullwidth",
-                    "label": "Bild Vollbreite",
+                    "label": "Bild Breit",
                     "display": "block",
                     "sub_fields": [
                         {
@@ -127,6 +105,139 @@
                     ],
                     "min": "",
                     "max": ""
+                },
+                {
+                    "key": "58970bb40eec9",
+                    "name": "image_big",
+                    "label": "Bild Vollgr\u00f6\u00dfe",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "clone": [
+                                "group_58970b8b79b5d"
+                            ],
+                            "prefix_label": 0,
+                            "prefix_name": 0,
+                            "display": "seamless",
+                            "layout": "block",
+                            "key": "field_58970bb40eeca",
+                            "label": "Image",
+                            "name": "image",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            }
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "58970fc5f05c7",
+                    "name": "socialhub",
+                    "label": "Socialhub",
+                    "display": "block",
+                    "sub_fields": [],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "57e1956041276",
+                    "name": "text_normal",
+                    "label": "Text",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "clone": [
+                                "group_57e1937dad89a"
+                            ],
+                            "prefix_label": 0,
+                            "prefix_name": 0,
+                            "display": "seamless",
+                            "layout": "block",
+                            "key": "field_57e1956e86bda",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            }
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5896fb913e269",
+                    "name": "text_columns",
+                    "label": "Text Zweispaltig",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "clone": [
+                                "group_5896fb54217d7"
+                            ],
+                            "prefix_label": 0,
+                            "prefix_name": 0,
+                            "display": "seamless",
+                            "layout": "block",
+                            "key": "field_5896fb913e26a",
+                            "label": "Text",
+                            "name": "text",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            }
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
+                },
+                {
+                    "key": "5895abb786df6",
+                    "name": "headline",
+                    "label": "\u00dcberschrift",
+                    "display": "block",
+                    "sub_fields": [
+                        {
+                            "clone": [
+                                "group_5895ab8fe9ffd"
+                            ],
+                            "prefix_label": 0,
+                            "prefix_name": 0,
+                            "display": "seamless",
+                            "layout": "block",
+                            "key": "field_5895abb786df7",
+                            "label": "Headline",
+                            "name": "headline",
+                            "type": "clone",
+                            "instructions": "",
+                            "required": 0,
+                            "conditional_logic": 0,
+                            "wrapper": {
+                                "width": "",
+                                "class": "",
+                                "id": ""
+                            }
+                        }
+                    ],
+                    "min": "",
+                    "max": ""
                 }
             ],
             "min": "",
@@ -161,22 +272,9 @@
     "label_placement": "top",
     "instruction_placement": "label",
     "hide_on_screen": [
-        "the_content",
-        "excerpt",
-        "custom_fields",
-        "discussion",
-        "comments",
-        "revisions",
-        "slug",
-        "author",
-        "format",
-        "page_attributes",
-        "featured_image",
-        "categories",
-        "tags",
-        "send-trackbacks"
+        "the_content"
     ],
     "active": 1,
     "description": "",
-    "modified": 1486207810
+    "modified": 1486297063
 }

@@ -1,8 +1,9 @@
 $(function(){
 	if($('.socialhub').length > 0	){	
+		var path = $('.socialhub').data('path')+"/social.php";
 		$.ajax({
 			method: 'get',
-			url: '../../../social.php',
+			url: path,
 			success: function(result){
 				var colors = ['82bf5b','7DBF94','BEBF73'];
 				var posts = JSON.parse(result).data;

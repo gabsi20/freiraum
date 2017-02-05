@@ -7,9 +7,9 @@
 	<div class="baseline">
 		<div class="container nav">
 			<a href="https://www.facebook.com/freiRaumAbtenau/" target="_blank"><span class="socialicon icon--facebook"></span></a>
-			<a href="">impressum</a>
-			<a href="contact" class='js-navigation-link js-footer-link' data-page="contact">kontakt</a>
-			<a href="partner" class="js-navigation-link js-footer-link" data-page="partner">partner</a>
+			<a href="/impressum">impressum</a>
+			<a href="/contact" class='js-navigation-link js-footer-link' data-page="contact">kontakt</a>
+			<a href="/partner" class="js-navigation-link js-footer-link" data-page="partner">partner</a>
 		</div>
 	</div>
 </div>
