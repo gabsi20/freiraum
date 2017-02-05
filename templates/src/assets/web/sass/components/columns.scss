@@ -11,4 +11,12 @@
 		content: '';
 		clear: both;
 	}
+	@media screen and (max-width: $breakpoint-medium){
+		.left, .right{
+			float: none;
+			width: 100%;
+			margin: 0;
+			margin-bottom: 1%;
+		}
+	}
 }
