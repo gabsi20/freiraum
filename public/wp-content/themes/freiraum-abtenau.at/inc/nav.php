@@ -11,13 +11,13 @@
             <a href="/fur-wen"      class="js-navigation-link <?php if($active == 'fur-wen'){ echo "active"; } ?>" data-page="fur-wen">Für Wen</a>
         </li>
         <li>
-            <a href="/was-ist-los"   class="js-navigation-link <?php if($active == 'was-ist-los'){ echo "active"; } ?>" data-page="was-ist-los">Was ist los</a>
+            <a href="/daten-und-fakten"   class="js-navigation-link <?php if($active == 'daten-und-fakten'){ echo "active"; } ?>" data-page="daten-und-fakten">Daten & Fakten</a>
         </li>
         <li class="sub">
-            <a href="/bewegung"      class="js-navigation-link <?php if($active == 'bewegung'){ echo "active"; } ?>" data-page="bewegung">Bewegung</a>
+            <a href="/belegungsplan"      class="js-navigation-link <?php if($active == 'belegungsplan'){ echo "active"; } ?>" data-page="belegungsplan">Belegungsplan</a>
         </li>
         <li class="sub">
-            <a href="/begegnung"     class="js-navigation-link <?php if($active == 'begegnung'){ echo "active"; } ?>" data-page="begegnung">Begegnung</a>
+            <a href="/veranstaltungen"     class="js-navigation-link <?php if($active == 'veranstaltungen'){ echo "active"; } ?>" data-page="veranstaltungen">Veranstaltungen</a>
         </li>
         <li>
             <a href="/dein-freiraum" class="js-navigation-link <?php if($active == 'dein-freiraum'){ echo "active"; } ?>" data-page="dein-freiraum">Dein Freiraum</a>

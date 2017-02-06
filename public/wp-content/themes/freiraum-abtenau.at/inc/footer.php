@@ -2,7 +2,7 @@
 </div>
 <div class="footer">
 	<div class="container wise">
-		<div class="text">Zeit für Leicht-Sinn im Freiraum</div>
+		<div class="text">Zeit für Leicht-Sinn im freiRaum</div>
 	</div>
 	<div class="baseline">
 		<div class="container nav">
