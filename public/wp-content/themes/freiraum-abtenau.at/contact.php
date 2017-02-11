@@ -25,7 +25,7 @@ include "inc/nav.php";
 		'X-Mailer: PHP/' . phpversion();
 
 
-		if(!mail('office@gabriel-alexander.at',$subject,$message,$headers)){
+		if(!mail('info@freiraum-abtenau.at',$subject,$message,$headers)){
 			echo '<div class="mailerror">Leider ist ein Fehler aufgetreten, versuchen Sie es bitte später erneut.</div>';
 		}else{
 			echo '<div class="mailsuccess">Ihre Anfrage wurde erfolgreich Versandt.</div>';
