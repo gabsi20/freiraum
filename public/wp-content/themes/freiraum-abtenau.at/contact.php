@@ -18,7 +18,7 @@ include "inc/nav.php";
 		$fullname = $lastname.' '.$firstname;
 
 
-		$subject = "Contact Form: ".$email;
+		$subject = "Contact Form: ".$fullname." <".$email.">";
 		$message = $text;
 		$headers = "MIME-Version: 1.0\r\n";
 		$headers .= "Content-type: text/plain; charset=utf-8\r\n";
