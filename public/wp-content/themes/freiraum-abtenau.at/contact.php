@@ -20,9 +20,12 @@ include "inc/nav.php";
 
 		$subject = "Contact Form: ".$email;
 		$message = $text;
-		$headers = 'From: info@freiraum-abtenau.at' . "\r\n" .
-		'Reply-To: ' . $email . "\r\n" .
-		'X-Mailer: PHP/' . phpversion();
+		$headers = "MIME-Version: 1.0\r\n";
+		$headers .= "Content-type: text/plain; charset=utf-8\r\n";
+		$headers .= "From: info@freiraum-abtenau.at\r\n";
+		$headers .= "Reply-To: " . $email . "\r\n";
+		$headers .= "X-Mailer: PHP/" . phpversion();
+
 
 
 		if(!mail('info@freiraum-abtenau.at',$subject,$message,$headers)){
