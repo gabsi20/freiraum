@@ -46,7 +46,22 @@ $cell-padding: 10px;
 			margin-bottom: 0;
 		}
 	}
+	&__image{
+		display: block;
+		background-size: cover;
+		background-position: 50% 50%;
+		width: 30%;
+		padding-bottom: 30%;
+		margin: 0 auto;
+		&:hover{
+			cursor: pointer;
+		}
+	}
 	@media (max-width: 1200px) {
+		&__image{
+			width: 60%;
+			padding-bottom: 60%;
+		}
 		&__title{
 			float: none;
 			padding: 5px 10px 10px 10px;
