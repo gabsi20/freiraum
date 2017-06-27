@@ -13,7 +13,9 @@
 				</div>
 				<div class="calendar__description">
 					<?= $event['description'] ?>
+					<?php if($image) { ?>
 					<div class="calendar__image js-gallery-item" style="background-image: url('<?= $image['sizes']['gallery_image'] ?>')" data-image="<?= $image['sizes']['gallery_image'] ?>"></div>
+					<?php } ?>
 				</div>
 			</li>
 			<?php } ?>
